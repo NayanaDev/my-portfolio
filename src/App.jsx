@@ -3,6 +3,8 @@ import Footer from './components/Footer'
 import './App.css'
 import Projects from './components/Projects'
 import About from './components/About'
+import Skills from './components/Skills'
+import Contact from './components/Contact'
 
 function App() {
   
@@ -11,7 +13,9 @@ function App() {
         <Header />
         <main className='flex-grow container mx-auto px-4 py-8'>
           <About />
+          <Skills />
           <Projects />
+          <Contact />
         </main>
         <Footer />
     </div>
